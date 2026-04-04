@@ -42,11 +42,11 @@ X_normalized = (X - X_mean) / (X_std + 1e-7)
 Y_normalized = (Y - Y_mean) / (Y_std + 1e-7)
 
 # 3) Initialize trainable variables (weights and bias)
-W = tf.Variable(0.0, dtype=tf.float32)
-b = tf.Variable(0.0, dtype=tf.float32)
+W = tf.Variable(np.random.randn(), dtype=tf.float32)
+b = tf.Variable(np.random.randn(), dtype=tf.float32)
 
 # 4) Hyperparameters
-learning_rate = 0.1
+learning_rate = 0.01
 training_epochs = 1000
 
 # 5) Define model components
