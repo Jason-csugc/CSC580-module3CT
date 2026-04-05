@@ -35,12 +35,12 @@ pip install -r requirements.txt
 <img width="856" height="352" alt="image" src="https://github.com/user-attachments/assets/fce09497-aaf1-441b-8a51-923ae71c075a" />
 
 2. Images of training data and fitted regression line
-Training Data
+   
+• Training Data
 <img width="653" height="554" alt="image" src="https://github.com/user-attachments/assets/f32e5d6d-5491-4f99-a370-978e2d053307" />
-Linear Regression Fit
+
+• Linear Regression Fit
 <img width="651" height="553" alt="image" src="https://github.com/user-attachments/assets/875deaa3-f2bb-4963-b5a3-4b446de3a1ad" />
-
-
 
 ## Additional Links
 
