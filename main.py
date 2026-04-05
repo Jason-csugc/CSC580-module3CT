@@ -90,8 +90,8 @@ def main():
     y += np.random.uniform(-4, 4, 50)
 
     # 1) Plot the training data
-    plt.scatter(x, y, label="Training Data")
     plt.figure("Training Data")
+    plt.scatter(x, y, label="Training Data")
     plt.title("Training Data")
     plt.xlabel("X")
     plt.ylabel("Y")
@@ -147,9 +147,9 @@ def main():
     # 8) Plot fitted line
     y_pred_normalized = hypothesis(W, X_normalized, b)
     y_pred_original = y_pred_normalized * Y_std + Y_mean  # Transform back to original scale
+    plt.figure("Linear Regression Fit")
     plt.scatter(x, y, label="Original Data")
     plt.plot(x, y_pred_original, color='red', label="Fitted Line")
-    plt.figure("Linear Regression Fit")
     plt.title("Linear Regression Fit")
     plt.xlabel("X")
     plt.ylabel("Y")
